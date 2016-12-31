@@ -4,12 +4,8 @@ Take a set of interlinked pages that suffer from various accessibility flaws and
 
 Font used: <https://www.google.com/fonts/specimen/Montserrat>
 
-## Notes from Accessibility Course
+## Project Instructions
 
-Why Accessibility?
+- Language attribute has been added to the tag on all pages
 
-1. Accessibility is the right thing to do.
-2. Accessibility leads to good practice.
-3. Accessibility helps to avoid legal concerns.
-
-Set font sizes using relative values, not specific pixel units. Don't use text in your images. Use plain text instead.
+-

@@ -8,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     color: #0c211a;
     background: #fff;
 }
@@ -67,12 +68,11 @@ a:hover {
 
 header {
     text-align: center;
-    background: url('../img/concert02_with_text.jpg') no-repeat top center;
+    background: url('../img/concert02_no_text.jpg') no-repeat top center;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
     height: 350px;
-    text-indent: -20000px;
 }
 
 .tag {
@@ -86,7 +86,13 @@ header {
 }
 
 header .name {
-    font-size: 3em;
+    font-size: 5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    margin-top: 90px;
 }
 
 .tagline {
@@ -94,6 +100,12 @@ header .name {
     padding: 20px;
     text-transform: uppercase;
     color: #781125;
+}
+
+header .tagline {
+    font-size: 2.7em;
+    text-transform: lowercase;
+    padding: 0px;
 }
 
 .card {

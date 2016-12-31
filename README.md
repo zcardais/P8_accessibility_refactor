@@ -8,4 +8,4 @@ Font used: <https://www.google.com/fonts/specimen/Montserrat>
 
 - Language attribute has been added to the tag on all pages
 
--
+- The foreground text and background color has sufficient contrast. I removed the dark background color and replaced it with a white. I also lightened the background color of the transparent main-nav bar while darkening its text to further the contrast.

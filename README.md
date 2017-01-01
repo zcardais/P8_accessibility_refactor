@@ -14,6 +14,6 @@ Font used: <https://www.google.com/fonts/specimen/Montserrat>
 
 - `<p>` tags with the class "heading" have been replaced by `<h2>` tags to help assist screen readers.
 
-- Now using background image without text (concert02_no_text.jpg) and added text to the HTML to roughly match the layout. Added Montserrat font to replace Open Sans.
+- Replaced background image with the version without text (concert02_no_text.jpg) and added text to the HTML to roughly match the layout. Added Montserrat font to replace Open Sans.
 
-- TODO: Next is Add alt tags to all images and then Make sure that the decorative images in tour.html have an empty alt attribute i.e alt="".
+- TODO: Add alt tags to all images and then Make sure that the decorative images in tour.html have an empty alt attribute i.e alt="".

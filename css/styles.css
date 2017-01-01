@@ -173,10 +173,12 @@ a.social {
     background-size: 30px 30px;
     opacity: .4;
     transition: all .5s;
+    background-color: black;
 }
 
 a.twitter {
     background-image: url(../img/twitter-32.png);
+    color: black;
 }
 
 a.youtube {

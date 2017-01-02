@@ -26,21 +26,25 @@ Font used: <https://www.google.com/fonts/specimen/Montserrat>
 
 - The image link icons in the footer have accompanying text describing the link. The alt text for the image is used on the survey.html and tour.html pages. CSS styling is used to hide text on index.html.
 
-- Create a table for the tour dates information using the element for table data cells and the element for table header cells.
+- Created a table for the tour dates information using the element for table data cells and the element for table header cells.
 
-- Ensure your table has a scope and caption element.
+- The table has a scope and caption element.
+
+- Form elements have styled focus states using the :focus pseudo class.
+
+- Associated labels added for form controls.
+
+- All labels have a 'for' value.
+
+- Form elements are grouped with a fieldset.
+
+- Legend describes each fieldset grouping.
+
+- Select field options are in alphabetical order.
+
+- Select options in the drop-down menu by typing from the keyboard.
 
 ### TODO:
-
-#### Form
-
-- Ensure form elements have styled focus states using the :focus pseudo class.
-- Add associated labels for form controls.
-- Make sure all labels have a 'for' value. Matching for and id values associate the label with the appropriate form control.
-- Group form elements with a fieldset.
-- Add a legend to describe the grouping.
-- Ensure the select field options are in alphabetical order.
-- Make sure you can select options in the drop-down menu by typing from the keyboard.
 
 #### Checking your code:
 

@@ -29,30 +29,66 @@
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Live concert">
           <div class="container">
-            <form class = "survey">
-              <p>Who is your favorite band member:</p>
-              <input type="radio" name="res" value="John"> John
-              <input type="radio" name="res" value="Hazzard"> Hazzard
-              <input type="radio" name="res" value="Bob"> Bob
-              <input type="radio" name="res" value="Sally"> Sally
+            <form class="survey">
+              <fieldset>
+                <legend>Tell us your favorites</legend>
+                <p>
+                  <span>Who is your favorite band member:</span>
+                  <ul>
+                    <li>
+                      <label for="john">
+                        <input id="john" type="radio" name="res" value="John">
+                         John
+                      </label>
+                    </li>
+                    <li>
+                      <label for="hazzard">
+                        <input id="hazzard" type="radio" name="res" value="Hazzard">
+                         Hazzard
+                      </label>
+                    </li>
+                    <li>
+                      <label for="bob">
+                        <input id="bob" type="radio" name="res" value="Bob">
+                         Bob
+                      </label>
+                    </li>
+                    <li>
+                      <label for="sally">
+                        <input id="sally" type="radio" name="res" value="Sally">
+                         Sally
+                      </label>
+                    </li>
+                  </ul>
+                </p>
 
-              <p>What is your favorite album:</p>
-              <select id="albums" name="select">
-                <option value="1">Party For An Angel</option>
-                <option value="2">A Day Of Old</option>
-                <option value="3">Finding My Shadow</option>
-                <option value="4">Diamond Fireworks</option>
-                <option value="5">Enjoy Your Desire</option>
-                <option value="6">This Is For You</option>
-                <option value="7">Music Of My Life</option>
-                <option value="8">Song For Yesterday</option>
-                <option value="9">Heroic Forever</option>
-                <option value="10">Midnight Fires</option>
-                <option value="11">Street Of The Rider</option>
-              </select>
+                <p>
+                  <label for="albums">
+                    <span>What is your favorite album:</span><br>
+                    <select id="albums" name="select">
+                      <option value="1">A Day Of Old</option>
+                      <option value="2">Diamond Fireworks</option>
+                      <option value="3">Enjoy Your Desire</option>
+                      <option value="4">Finding My Shadow</option>
+                      <option value="5">Heroic Forever</option>
+                      <option value="6">Midnight Fires</option>
+                      <option value="7">Music Of My Life</option>
+                      <option value="8">Party For An Angel</option>
+                      <option value="9">Song For Yesterday</option>
+                      <option value="10">Street Of The Rider</option>
+                      <option value="11">This Is For You</option>
+                    </select>
+                  </label>
+                </p>
 
-              <p>What is your favorite song:</p>
-              <textarea></textarea>
+                <p>
+                  <label for="song">
+                    <span>What is your favorite song:</span>
+                  </label>
+                  <textarea cols="40" rows="3" id="song"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+              </fieldset>
             </form>
           </div>
         </div>
@@ -63,10 +99,13 @@
           <img class="photo" src= "img/the_band.jpg" alt="Live band performance">
             <div class="container">
               <form class="newsletter">
-                  <p>Name: <input type ="text" name="textfield"></p>
-                  <p>Email: <input type ="email" name="textfield"></p>
-                  <p>Retype Email: <input type ="email" name="textfield"></p>
+                <fieldset>
+                  <legend>Subscribe</legend>
+                  <p><label for="name">Name: <input id="name" type ="text" name="textfield"></label></p>
+                  <p><label for="email">Email: <input id="email" type ="email" name="textfield"></label></p>
+                  <p><label for="confirm">Retype Email: <input id="confirm" type ="email" name="textfield"></label></p>
                   <button type="submit">Sign Up</button>
+                </fieldset>
               </form>
             </div>
         </div>

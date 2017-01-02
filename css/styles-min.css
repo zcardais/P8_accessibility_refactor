@@ -131,8 +131,8 @@ header .tagline {
 .information {
     width: 100%;
     text-align: center;
-    /*display: inline-block;
-  position: absolute;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
 }
 
 .heading {

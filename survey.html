@@ -32,7 +32,7 @@
             <form class="survey">
               <fieldset>
                 <legend>Tell us your favorites</legend>
-                <p>
+                <div class="item">
                   <span>Who is your favorite band member:</span>
                   <ul>
                     <li>
@@ -60,33 +60,33 @@
                       </label>
                     </li>
                   </ul>
-                </p>
+                </div>
+                <div class="item">
+                  <label for="albums">
+                    <span>What is your favorite album:</span><br>
+                    <select id="albums" name="select">
+                      <option value="1">A Day Of Old</option>
+                      <option value="2">Diamond Fireworks</option>
+                      <option value="3">Enjoy Your Desire</option>
+                      <option value="4">Finding My Shadow</option>
+                      <option value="5">Heroic Forever</option>
+                      <option value="6">Midnight Fires</option>
+                      <option value="7">Music Of My Life</option>
+                      <option value="8">Party For An Angel</option>
+                      <option value="9">Song For Yesterday</option>
+                      <option value="10">Street Of The Rider</option>
+                      <option value="11">This Is For You</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="item">
+                  <label for="song">
+                    <span>What is your favorite song:</span>
+                  </label>
+                  <textarea cols="40" rows="3" id="song"></textarea>
+                </div>
+                <button type="submit">Submit</button>
               </fieldset>
-              <p>
-                <label for="albums">
-                  <span>What is your favorite album:</span><br>
-                  <select id="albums" name="select">
-                    <option value="1">A Day Of Old</option>
-                    <option value="2">Diamond Fireworks</option>
-                    <option value="3">Enjoy Your Desire</option>
-                    <option value="4">Finding My Shadow</option>
-                    <option value="5">Heroic Forever</option>
-                    <option value="6">Midnight Fires</option>
-                    <option value="7">Music Of My Life</option>
-                    <option value="8">Party For An Angel</option>
-                    <option value="9">Song For Yesterday</option>
-                    <option value="10">Street Of The Rider</option>
-                    <option value="11">This Is For You</option>
-                  </select>
-                </label>
-              </p>
-              <p>
-                <label for="song">
-                  <span>What is your favorite song:</span>
-                </label>
-                <textarea cols="40" rows="3" id="song"></textarea>
-              </p>
-              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -99,24 +99,24 @@
               <form class="newsletter">
                 <fieldset>
                   <legend>Subscribe</legend>
-                  <p><label for="name">Name: <input id="name" type ="text" name="textfield"></label></p>
-                  <p><label for="email">Email: <input id="email" type ="email" name="textfield"></label></p>
-                  <p><label for="confirm">Retype Email: <input id="confirm" type ="email" name="textfield"></label></p>
+                  <div class="item"><label for="name">Name: <input id="name" type ="text" name="textfield"></label></div>
+                  <div class="item"><label for="email">Email: <input id="email" type ="email" name="textfield"></label></div>
+                  <div class="item"><label for="confirm">Retype Email: <input id="confirm" type ="email" name="textfield"></label></div>
                   <button type="submit">Sign Up</button>
                 </fieldset>
               </form>
             </div>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      <ul>
-        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="Twitter icon"></a></li>
-        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="YouTube icon"></a></li>
-        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="Spotify icon"></a></li>
-      </ul>
-      <p class="copyright">Copyright 2015, Accessible Frog</p>
-    </footer>
-  </body>
+      <footer>
+        <ul>
+          <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="Twitter icon"></a></li>
+          <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="YouTube icon"></a></li>
+          <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="Spotify icon"></a></li>
+        </ul>
+        <p class="copyright">Copyright 2015, Accessible Frog</p>
+      </footer>
+    </body>
 </html>

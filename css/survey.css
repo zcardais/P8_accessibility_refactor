@@ -19,6 +19,16 @@ form {
     text-align: right;
 }
 
+.item {
+    margin: 16px 0;
+    display: block;
+    line-height: 1.6em;
+    -webkit-margin-after: 16px;
+    -webkit-margin-before: 16px;
+    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -29,34 +39,47 @@ ul li {
     display: inline-block;
 }
 
-
-}
 input, textarea {
-    width: 300px;
+    width: 400px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #666;
+    border: 1px solid #999;
+    padding: 5px 0;
+    border-radius: 6px;
 }
+
 input[type=checkbox], input[type=radio] {
     width: auto;
     border: none;
 }
-input:focus, textarea:focus {
-    border: #000;
-}
-textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-}
-fieldset {
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top: 30px;
+
+input:focus, textarea:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    border: 1px solid #008cc9!important;
+    box-shadow: 0 0 3px #008cc9!important;
+    outline: 0;
 }
 
+textarea {
+    vertical-align: top;
+    height: 6em;
+    resize: vertical;
+}
+
+textarea:focus {
+    background-color: rgba(204, 204, 204, 0.2);
+}
+
+fieldset {
+    width: 80%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
 /* Styles for larger screens */
+
 @media screen and (min-width: 840px) {
     .photo {
         width: 40%;
